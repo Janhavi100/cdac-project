@@ -1,0 +1,35 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredTitle {
+  font-size: xx-large;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+.featuredCount{
+    margin: 10px 10px;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 14px 14px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 14px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 14px 10px 0px rgba(0,0,0,0.75);
+}
+
+
